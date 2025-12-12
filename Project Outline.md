@@ -3,6 +3,7 @@
 Author:     Julian
 Date:       2025-12-12 12:22:01
 Version:    0.0.1
+Git:        https://github.com/britesc/Pico2-LVGL-Touch-UI-System.git
 
 ## 1. Purpose and Goals
 
