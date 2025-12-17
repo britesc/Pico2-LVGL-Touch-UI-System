@@ -16,12 +16,12 @@ The purpose of this Project is to design and produce a Device that will allow a 
 It should be registered to the User by their ZAP Number and accessed via a User Configurable Password.
 The Device should be able to not only record User specific information, but be able to accept subordinate information for aggregation and to send information to a superior Chain of Command (CoC).
 
-    2.1. It needs to be minimal in size.
+    2.1 It needs to be minimal in size.
     2.2 It needs to have a touch screen display for interaction.
-    2.3. It needs to be rechargeable battery operated.
-    2.4. It needs to be IP67 or higher.
-    2.5. For an unqualified User, there should be "No User Serviceable Parts", to maintain integrity of the Device.
-    2.6. The Device should be designed and produced with Security of Information as a Main Driver.
+    2.3 It needs to be rechargeable battery operated.
+    2.4 It needs to be IP67 or higher.
+    2.5 For an unqualified User, there should be "No User Serviceable Parts", to maintain integrity of the Device.
+    2.6 The Device should be designed and produced with Security of Information as a Main Driver.
 
 ## 3. Application Requirements
 
@@ -38,7 +38,7 @@ The Device should be able to not only record User specific information, but be a
     3.11 Rechargeable Batteries.
     3.12 Sealed Pogo Connections.
     3.13 ABS Enclosure.
-    3.14 Whole Screen Morse Flash Beacon.
+    3.14 Whole Screen Morse Flash Beacon, restricted to SOS or ZapNumber.
     3.15 LoRa Distress Beacon.
 
 ## 4. Hardware Overview
@@ -82,7 +82,7 @@ The Device will run on compiled .uf2 (USB Flashing Format) file format, which wi
 
 ### 5.1 LVGL Version
 
-The underlying version of Lightweight Versatile Graphics Library (LVGL) is currently 9.4.0 at the time of writing of this Document.
+The underlying version of the Lightweight Versatile Graphics Library (LVGL) is currently 9.4.0 at the time of writing of this Document.
 
 ### 5.2  EEZ Studio Version
 
